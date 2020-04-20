@@ -1,0 +1,1020 @@
+/* ST: General Classes */
+.inline-block {
+	display: inline-block;
+}
+
+.padding-0 {
+	padding: 0 !important;
+}
+
+.padding-t10 {
+	padding-top: 10px;
+}
+
+.padding-b10 {
+	padding-bottom: 10px;
+}
+
+.margin-0 {
+	margin: 0 !important;
+}
+
+.margin-t10 {
+	margin-top: 10px;
+}
+
+.margin-b10 {
+	margin-bottom: 10px;
+}
+
+.margin-t5 {
+	margin-top: 5px;
+}
+
+.margin-b5 {
+	margin-bottom: 5px;
+}
+.huge-padding {
+	padding: 100px 0 !important;
+}
+/* ED: General Classes */
+
+/* ST: General Forms */
+
+@font-face {
+	font-family: 'Lato', sans-serif;
+	src: url(fonts/Lato-Light.ttf);
+}
+
+@font-face {
+	font-family: 'Lato', sans-serif;
+	src: url(fonts/Lato-Hairline.ttf);
+}
+
+@font-face {
+	font-family: Quicksand-Light;
+	src: url(fonts/Quicksand-Light.ttf);
+}
+
+@font-face {
+	font-family: 'Lato', sans-serif;
+	src: url(fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+	font-family: Raleway-Bold;
+	src: url(fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+	font-family: Muli-Bold;
+	src: url(fonts/Muli-Bold.ttf);
+}
+
+.form-control {
+	border-radius: 0;
+	border: 1px solid #eee;
+	padding: 10px 15px;
+	height: 45px;
+	box-shadow: none;
+}
+
+.input-right-icon {
+	position: relative;
+}
+
+.input-right-icon .right-icon {
+	position: absolute;
+	right: 20px;
+	top: 12px;
+}
+
+.input-left-icon {
+	position: relative;
+}
+
+.input-left-icon .left-icon {
+	position: absolute;
+	left: 5px;
+	top: 12px;
+}
+
+.navbar {
+	background-color: #fff;
+	color: #bfbfbf;
+	box-shadow: 0px 1px 5px 0px rgba(199, 195, 199, 1);
+}
+
+.nav>li>a:hover {
+	background-color: transparent;
+	color: #ff314f;
+}
+
+.navbar-nav>li>a {
+	padding-top: 23px;
+	padding-bottom: 15px;
+}
+
+/**/
+
+.active {
+	border-bottom: 3px solid #1A73E8
+}
+
+/**/
+
+.nav-options {
+	text-decoration: none;
+	color: #bfbfbf;
+	font-size: 15px;
+	font-family: 'Muli-Bold';
+}
+
+.navbar-nav>li>.dropdown-menu {
+	border-radius: 4px;
+	margin-top: 9px;
+	padding-top: 5px;
+}
+
+.dropdown-menu .option {
+	padding-top: 10px;
+	font-family: Quicksand-Medium;
+	font-size: 15px;
+}
+
+.dropdown-menu>li>a:hover {
+	color: #009bc6;
+}
+
+.nav-icon {
+	font-size: 20px;
+}
+
+.navbar-btn {
+	padding: 8px 25px;
+	margin-right: 7px;
+	background-color: #d9d9d9;
+	border-color: #d9d9d9;
+	color: white;
+	font-family: Quicksand-Medium;
+}
+
+.navbar .btn-default:hover {
+	color: #333;
+	background-color: #e6e6e6;
+	border-color: #e6e6e6;
+}
+
+.footer-bg {
+	object-fit: cover;
+	width: 100%;
+	padding-left: 0px;
+	padding-right: 0px;
+	object-position: bottom center;
+}
+
+
+
+
+
+@font-face {
+	font-family: Quicksand-Light;
+	src: url(fonts/Quicksand-Light.ttf);
+}
+
+@font-face {
+	font-family: Quicksand-Medium;
+	src: url(fonts/Quicksand-Medium.ttf);
+}
+
+@font-face {
+	font-family: NothingYouCouldDo;
+	src: url(fonts/NothingYouCouldDo.ttf);
+}
+
+/* ED: General Forms */
+
+/* ST: General Buttons */
+
+.btn-primary {
+	color: white;
+	background-color: #009bc6;
+	border-color: #009bc6;
+	border-radius: 5px;
+}
+
+.btn-primary:hover {
+	color: white;
+	background-color: #305a84;
+	border-color: #305a84;
+	cursor: pointer;
+	box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* ED: General Buttons */
+
+/********** PAGES **********/
+
+/* ST: Register Page */
+
+.register-page header, .login-page header {
+	border-bottom: 1px;
+	height: 100px;
+	width: 100%;
+	background-color: #e0e0d1;
+	top: 0;
+	z-index: 1;
+}
+
+.register-page .logo, .login-page .logo {
+	height: 120px;
+	width: 120px;
+	margin-top: 40px;
+}
+
+.register-page .maincontainer, .login-page .maincontainer {
+	padding-top: 60px;
+}
+
+.register-page .register-panel {
+	border: none;
+}
+
+.register-page .submit-btn {
+	width: 100%;
+	border-radius: 0;
+	padding: 10px 15px;
+	height: 45px;
+}
+
+/* ED: Register Page */
+
+/* st home page */
+
+body {
+	background: #f5f5ef;
+	padding: 0 0 0 0;
+	margin: 0;
+}
+
+.icons {
+	display: inline-block;
+}
+
+/* ED home page */
+
+/* ST: EasyMetro1*/
+
+.fa-5x {
+	font-size: 10em;
+	padding-right: 50px;
+	color: white;
+}
+
+.first-page .ticket-option {
+	padding: 30px 10px;
+	display: block;
+	text-decoration: none;
+	color: white;
+	margin-top: 120px;
+	margin-bottom: 30px;
+	background-image: linear-gradient(to right top, #e1e3e3, #b7d2d6, #8bc1cd, #5baec9, #009bc6);
+	border-radius: 10px;
+}
+
+.first-page .ticket-option:hover {
+	padding: 35px 15px;
+	box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.75);
+	cursor: pointer;
+	transition: ease all 0.3s;
+}
+
+.first-page .ticket-option i.fa {
+	font-size: 70px;
+	color: white;
+	margin-bottom: 30px;
+}
+
+.first-page .ticket-option .p1 {
+	color: white;
+	margin-top: 20px;
+}
+
+
+/* ED: EasyMetro1*/
+
+/* ST: Ticket page*/
+
+.ticket-page .ticketpage-container {
+	text-align: center;
+	padding: 20px 10px;
+	margin-top: 140px;
+	margin-bottom: 60px;
+	border: 1px solid #737373;
+	border-radius: 5px;
+	background-color: white;
+	border-color: rgba(255, 255, 255, 0.8);
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.ticket-page .fromstation, .ticket-page .tostation {
+	border: 1px solid #eee;
+	padding: 6px 0px;
+	margin-right: 10px;
+	margin-left: -20px height: 25px;
+	box-shadow: none;
+	border: none;
+	border-bottom: 1px solid #737373;
+	background-color: rgba(255, 255, 255, 0.7);
+	display: block;
+}
+
+.ticket-page .p2 {
+	font-size: 20px;
+	font-family: Quicksand-Light;
+}
+
+.ticket-page .list-group {
+	list-style: none;
+}
+
+.ticket-page .background-ticketpage {
+	width: 100%;
+	height: 100vh;
+	display: block;
+	object-fit: cover;
+	padding: 0 0 0 0;
+}
+
+.ticket-page .btn-primary {
+	color: white;
+	background-color: #009bc6;
+	border-color: #009bc6;
+	border-radius: 5px;
+	padding: 7px 15px;
+	margin-top: 5px;
+	width: 100%;
+}
+
+.ticket-page .btn-primary:hover {
+	color: white;
+	background-color: #009bc6;
+	border-color: #009bc6;
+	cursor: pointer;
+	box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.75);
+}
+
+.ticket-page .group {
+	position: relative;
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.ticket-page textarea {
+	resize: none;
+	border: none;
+}
+
+.ticket-page input, .ticket-page textarea {
+	background: none;
+	color: #737373;
+	font-size: 20px;
+	padding: 15px 15px 15px 10px;
+	display: block;
+	width: 100%;
+}
+
+.ticket-page input:focus, .ticket-page textarea:focus {
+	outline: none;
+}
+
+.ticket-page input:focus~label, .ticket-page input:valid~label, .ticket-page textarea:focus~label, .ticket-page textarea:valid~label {
+	top: -14px;
+	font-size: 12px;
+	color: #2196F3;
+}
+
+.ticket-page input:focus~.bar:before, .ticket-page textarea:focus~.bar:before {
+	width: 100%;
+}
+
+.ticket-page label {
+	color: #737373;
+	font-size: 16px;
+	font-weight: normal;
+	position: absolute;
+	pointer-events: none;
+	left: 17px;
+	top: 10px;
+	transition: 300ms ease all;
+}
+
+.ticket-page .bar {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+.ticket-page .bar:before {
+	content: '';
+	height: 2px;
+	width: 0;
+	bottom: 0px;
+	position: absolute;
+	background: #2196F3;
+	transition: 300ms ease all;
+	left: 0%;
+}
+
+.ticket-page .list-group-item {
+	position: relative;
+	display: block;
+	background-color: #fff;
+	border: #ddd0;
+}
+
+.ticket-page .dot {
+	height: 12px;
+	width: 12px;
+	background-color: #ff314f;
+	border-radius: 50%;
+	display: inline-block;
+	border: 1px solid #bdbcbc;
+}
+
+.ticket-page .behind-dot {
+	margin-left: 5px;
+	color: #777676ed;
+}
+
+.ticket-page .vertical {
+	height: 100px;
+	border-left: 1px solid #bdbcbc;
+	margin-left: 6px;
+	margin-top: -30px;
+	margin-bottom: -10px;
+}
+
+.ticket-page .changestation {
+	padding-top: 50px;
+	display: block;
+	padding-left: 15px;
+}
+
+.ticket-page .ticketprice {
+	font-size: 20px;
+}
+
+.ticket-page .text-size {
+	font-size: 18px;
+	padding-left: 10px;
+	margin-left: 10px;
+}
+
+.ticket-page .modal-footer {
+	display: inline-block;
+}
+
+.ticket-page .modal-content .paybtn {
+	color: white;
+	background-color: #009bc6;
+	border-color: #009bc6;
+	border-radius: 15px;
+	text-align: center;
+	padding: 0;
+	width: 155px;
+	margin: 22px 40px 10px 40px;
+}
+
+.ticket-page .modal-content .paybtn.no-credit {
+	background-color: grey;
+}
+
+.ticket-page .credits {
+	color: #777676ed;
+	font-size: 11px;
+	margin-left: 67px;
+}
+
+.ticket-page .price, .ticket-page .paynow {
+	width: 100%;
+	display: block;
+	color: black;
+	padding: 10px 0;
+}
+
+.ticket-page .paynow {
+	border-top: 1px solid rgba(255, 255, 255, 0.5);
+	padding: 5px 0;
+}
+
+.ticket-page .from-text, .ticket-page .to-text {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.ticket-page .modal-content .btn-primary:hover {
+	color: white;
+	background-color: #009bc6;
+	border-color: #009bc6;
+	cursor: pointer;
+	box-shadow: none;
+}
+
+.ticket-page .modal-header {
+	border-bottom: none;
+}
+
+.ticket-page .done-icon {
+	font-size: 130px;
+	color: #009933;
+}
+
+.ticket-page .error-icon {
+	font-size: 120px;
+	color: #e60000;
+}
+
+.ticket-page .done-text {
+	font-size: 15px;
+	text-align: center;
+}
+
+.ticket-page .done-text a {
+	text-decoration: none;
+}
+
+/* ED: Ticket Page*/
+
+/* ST: Membership Page*/
+
+.membership-categories {
+	padding-top: 20px;
+}
+
+.membership-offers {
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.membership-panel {
+	padding: 20px;
+	background-image: linear-gradient(to top, #f7f9f5, #f3f4f1, #eeefec, #eaeae8, #e5e5e4);
+	border-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid #737373;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.membership-title {
+	padding-bottom: 15px;
+}
+
+.membershippage-background {
+	background-position: center;
+	background-image: url('images/Metro23.jpg');
+}
+
+.membership-page .membershippage-container {
+	padding-top: 60px;
+}
+
+.btn-file {
+	position: relative;
+	overflow: hidden;
+}
+
+.btn-file input[type=file] {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	opacity: 0;
+}
+
+.membership-uploadid {
+	padding-top: 20px;
+}
+
+.membership-uploadid .btn-upload {
+	color: #333;
+	background-color: white;
+	border-color: transparent;
+	border-radius: 0px;
+	position: relative;
+	cursor: pointer !important;
+}
+
+.membership-uploadid .btn-upload input {
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	cursor: pointer !important;
+}
+
+.membership-uploadid.btn-upload:hover {
+	color: #333;
+	background-image: linear-gradient(to right bottom, #676767, #808182, #989d9d, #b2b9b6, #d2d5ce);
+	;
+	cursor: pointer;
+	box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.75);
+}
+
+.membership-page .register-panel {
+	border: none;
+}
+
+.membership-page .submit-btn {
+	width: 100%;
+	border-radius: 5px;
+	padding: 10px 15px;
+	height: 45px;
+}
+
+.membership-page .navbar-nav .navbar-right {
+	float: right;
+}
+
+.membership-page .notify-icon {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+.membership-page .done-icon {
+	font-size: 130px;
+	color: #009933;
+}
+
+.membership-page .error-icon {
+	font-size: 120px;
+	color: #e60000;
+}
+
+.membership-page .btn-primary:focus {
+	color: white;
+	background-color: #009bc6;
+	border-color: #009bc6;
+}
+
+/* ED: Membership Page*/
+
+/* ST: Login Page*/
+
+.login-panel {
+	padding: 15px;
+	background-color: rgba(255, 255, 255, 0.9);
+	border-color: rgba(255, 255, 255, 0.8);
+	box-shadow: 4px;
+}
+
+/* ED: Login Page*/
+
+/* ST: Charging Page */
+
+.charging-page .fawry-info {
+	margin-top: 100px;
+	text-align: left;
+	font-size: 17px;
+	font-family: Quicksand-Medium;
+}
+
+.charging-page .fawry-input {
+	margin: 70px 0px;
+}
+
+.charging-page .enter-code {
+	outline-style: none;
+	height: 50px;
+}
+
+.charging-page .fawry-btn {
+	height: 50px;
+	padding: 10px 60px;
+	background-color: #009bc6;
+	border-color: #009bc6;
+	font-family: Quicksand-Medium;
+}
+
+.charging-page .fawry-btn:hover {
+	background-color: #009bc6;
+	border-color: #009bc6;
+}
+
+.charging-page .add-credit {
+	font-size: 14px;
+	font-weight: 30px;
+	color: white;
+	font-family: Quicksand-Medium;
+}
+
+.charging-page .payment-logo {
+	height: 43px;
+	width: 57px;
+	object-fit: contain;
+}
+
+.charging-page .payment-logos {
+	margin-top: 20px;
+}
+
+.charging-page .coomingsoon {
+	font-size: 12px;
+	color: #3381c1;
+}
+
+.charging-page .availablenow {
+	font-size: 13px;
+}
+
+.charging-page .done-icon {
+	font-size: 130px;
+	color: #009933;
+}
+
+.charging-page .error-icon {
+	font-size: 120px;
+	color: #e60000;
+}
+
+.charging-page .modal-header {
+	border-bottom: none;
+}
+
+/* ED: charging Page*/
+
+/* ST: Mytickets Page*/
+
+.mytickets-container {
+	margin-top: 100px;
+}
+
+.mytickets-page .ticket1 {
+	margin-top: 40px;
+	margin-left: 50px;
+	width: 370px;
+	height: 220px;
+	background-color: #d9d9d9;
+	text-align: left;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.mytickets-page .qr1 {
+	margin-top: 30px;
+	margin-left: 30px;
+	width: 100px;
+	border: 10px solid #009bc6;
+	border-radius: 5px;
+	float: left;
+	object-fit: contain;
+	display: inline-block;
+}
+
+.mytickets-page .qr-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	transform: scale(1.8);
+}
+
+.mytickets-page .ticketdetails-content {
+	padding-top: 54px;
+	font-size: 17px;
+	margin-left: 170px;
+	display: block;
+	color: black;
+}
+
+.mytickets-page .click {
+	margin-left: 180px;
+	font-size: 13px;
+}
+
+.mytickets-page .discover {
+	padding-top: 15px;
+	padding-left: 50px;
+}
+
+.mytickets-page .discover a {
+	text-decoration: none;
+	color: #ff314f;
+}
+
+.mytickets-page .scannow {
+	color: gray;
+	margin-left: 60px;
+	margin-right: 60px;
+	font-size: 23px;
+	text-align: center;
+}
+
+.mytickets-page .modal-header {
+	border-bottom: none;
+}
+
+.mytickets-page .modal {
+	padding-top: 50px;
+	background-image: linear-gradient(to right bottom, #fbfbf9, #e9eae7, #d8d8d6, #c7c8c5, #b6b7b4);
+}
+
+/* ED: Mytickets Page*/
+
+/* ST: Discover Page*/
+
+.discover-page .card {
+	margin-top: 70px;
+	border-radius: 3px;
+}
+
+.discover-page .img1 {
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+	text-align: center;
+	object-position: top center;
+}
+
+.discover-page .discover-btns {
+	align-content: center;
+}
+
+.discover-page .location-button {
+	margin-bottom: 10px;
+	padding: 7px 40px 7px 40px;
+}
+
+.discover-page .uber-button {
+	background-color: black;
+	color: white;
+}
+
+.discover-icons {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	width: 60px;
+	display: inline-block;
+}
+
+.discover-icons-text {
+	font-size: 2em;
+	display: block;
+	margin-right: 10px;
+	border-bottom: 2px solid #009bc6;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	display: inline-block;
+	font-family: Quicksand-Light;
+}
+
+.textll {
+	padding-top: 20px;
+	font-family: Lato-Bold;
+	font-size: 15px;
+}
+
+/* ED: Discover Page*/
+
+/*ST: Mymembership Page*/
+
+.mymembership-page {
+	margin-top: 100px;
+}
+
+.mymembership-page .ticket1 {
+	width: 300px;
+	height: 330px;
+	background-color: #d9d9d9;
+	text-align: left;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.mymembership-page .qr1 {
+	margin-left: 20px;
+	width: 100px;
+	border: 10px solid #009bc6;
+	border-radius: 5px;
+	float: left;
+	object-fit: contain;
+	display: inline-block;
+}
+
+.mymembership-page .edit-icon {
+	padding-top: 20px;
+	padding-left: 265px;
+	font-size: 17px;
+}
+
+.mymembership-page .membershipdetails {
+	padding-top: 120px;
+	padding-left: 33px;
+}
+
+.mymembership-page .membershipdetails {
+	font-size: 14px;
+	display: block;
+	color: black;
+	font-family: Raleway-Bold;
+}
+
+.mymembership-page .membershipdetails i {
+	padding-right: 4px;
+}
+
+.mymembership-page .modal-header {
+	border-bottom: none;
+}
+
+.mymembership-page .modal {
+	padding-top: 50px;
+	background-image: linear-gradient(to right bottom, #fbfbf9, #e9eae7, #d8d8d6, #c7c8c5, #b6b7b4);
+}
+
+.mymembership-discover-btn {
+	padding: 10px 30px;
+	background-color: #009bc6;
+	border-color: #009bc6;
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.mymembership-discover-btn:hover {
+	background-color: #009bc6;
+	border-color: #009bc6;
+}
+
+.mymembership-page .scannow {
+	text-align: center;
+}
+
+/*ED: Mymembership Page*/
+/*ST: our services page*/
+.ourservices-page { 
+	max-width: 100%;
+	overflow-x: hidden;
+	padding-top:70px;
+	font-size:18px; 
+	color:#009bc6;
+}
+.contact-info {
+	font-size: 15px;
+	color: gray;
+	padding-top: 20px;
+}
+
+/* ED: our services page*/
+
+/*ST: slider*/
+.swiper-container {
+	object-fit: cover;
+	width: 100%;
+	height: 100vh;
+	background-color: #f8f9fa; 
+	text-align: left;
+}
+.swiper-container .swiper-slide .imgswiper {
+display: flex;
+justify-content: center;
+align-items: flex-start;
+flex-direction: column;
+margin-left: 80px;
+}
+
+
+.createbtn-homepage {
+	background-color: #009bc6;
+	border-color: #009bc6;
+	color: white;
+	padding: 17px 24px;
+	text-align: center;
+	margin-top: 40px;
+
+	
+}
+.imgswiper {
+	height: 100%;
+	width: 100%;
+	background-position: center center;
+	background-size: 100%;
+}
+.textonslide1 {
+	text-align: left;
+	font-size: 40px;
+}
+
+
+/*ED: slider*/
